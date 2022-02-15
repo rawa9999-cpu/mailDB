@@ -10,14 +10,12 @@ mailDB基本存储块的格式，包含四个部分和四种状态。
 四个部分：发送的原地址，目标地址，1M字节的数据，hash值(使用MD5，没有专利限制，速度快)。
 四种状态：创始态，计算态，传递和生长态，稳定态（复制100~200份自己达到这个状态）。
 下面是英文部分：
+
 MailDB plan
 --About a new type of distributed database system using E-mail protocol as storage.
 Our Internet was based on four services: newsgroups, HTTP (Web), E-mail,
-remote login, and two direct Control your computer's FTP and Telnet services.With
-the development of blockchain technology, distributed storage has become a new
-storage technology, but blockchain technology needs to replicate a large number
-of the same numbers The same is true of many of our other cloud computing
-technologies, which are always tied to server and database services.
+remote login, and two direct Control your computer's FTP and Telnet services.With the development of blockchain technology, distributed storage has become a new storage technology, but blockchain technology needs to replicate a large number
+of the same numbers The same is true of many of our other cloud computing technologies, which are always tied to server and database services.
 I have long studied the Email protocol and found that it is possible to take
 advantage of the Email protocol with an additional storage space. Many Email
 systems are supported by attachments and attachments Some formatting of the
@@ -35,9 +33,5 @@ This new storage technology could turn the Great Firewall of China into the Berl
 Wall and make it impossible for the domestic government to get the money out of it,
 hope the U.S. government Give me a grant.
 The format of the MailDB basic storage block, consisting of four parts and four
-states.
-Four parts: the original address sent, the destination address, the 1M bytes of data,
-the hash value (using MD5, no patent restrictions, fast).
-There are four states: the initial state, the computational state, the transfer and
-growth state, and the stable state (100~200 copies of themselves to reach this
-state)
+states.Four parts: the original address sent, the destination address, the 1M bytes of data,
+the hash value (using MD5, no patent restrictions, fast).There are four states: the initial state, the computational state, the transfer and growth state, and the stable state (100~200 copies of themselves to reach this state).
